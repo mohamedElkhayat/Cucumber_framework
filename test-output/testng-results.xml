@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="253658" started-at="2021-04-14T13:01:40 EET" finished-at="2021-04-14T13:05:53 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Testrunner@3e92efc3]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="253658" started-at="2021-04-14T13:01:40 EET" finished-at="2021-04-14T13:05:53 EET">
+      <class name="runner.Testrunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Testrunner@3e92efc3]" name="setUpClass" is-config="true" duration-ms="756" started-at="2021-04-14T13:01:40 EET" finished-at="2021-04-14T13:01:40 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:runner.Testrunner@3e92efc3]" name="startdriver" is-config="true" duration-ms="30837" started-at="2021-04-14T13:01:41 EET" finished-at="2021-04-14T13:02:12 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Testrunner@3e92efc3]" name="feature" duration-ms="13776" started-at="2021-04-14T13:02:15 EET" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-04-14T13:02:29 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[contact us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="screenshot_on_failuar(org.testng.ITestResult)[pri:0, instance:runner.Testrunner@3e92efc3]" name="screenshot_on_failuar" is-config="true" duration-ms="3" started-at="2021-04-14T13:02:29 EET" finished-at="2021-04-14T13:02:29 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Testrunner@3e92efc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot_on_failuar -->
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:runner.Testrunner@3e92efc3]" name="startdriver" is-config="true" duration-ms="46722" started-at="2021-04-14T13:02:29 EET" finished-at="2021-04-14T13:03:16 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Testrunner@3e92efc3]" name="feature" duration-ms="3966" started-at="2021-04-14T13:03:16 EET" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-04-14T13:03:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[search]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="screenshot_on_failuar(org.testng.ITestResult)[pri:0, instance:runner.Testrunner@3e92efc3]" name="screenshot_on_failuar" is-config="true" duration-ms="0" started-at="2021-04-14T13:03:20 EET" finished-at="2021-04-14T13:03:20 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Testrunner@3e92efc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot_on_failuar -->
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:runner.Testrunner@3e92efc3]" name="startdriver" is-config="true" duration-ms="46930" started-at="2021-04-14T13:03:20 EET" finished-at="2021-04-14T13:04:07 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Testrunner@3e92efc3]" name="feature" duration-ms="9399" started-at="2021-04-14T13:04:07 EET" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-04-14T13:04:16 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[send to friend]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="screenshot_on_failuar(org.testng.ITestResult)[pri:0, instance:runner.Testrunner@3e92efc3]" name="screenshot_on_failuar" is-config="true" duration-ms="3" started-at="2021-04-14T13:04:16 EET" finished-at="2021-04-14T13:04:16 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Testrunner@3e92efc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot_on_failuar -->
+        <test-method status="PASS" signature="startdriver(java.lang.String)[pri:0, instance:runner.Testrunner@3e92efc3]" name="startdriver" is-config="true" duration-ms="73680" started-at="2021-04-14T13:04:16 EET" finished-at="2021-04-14T13:05:30 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Testrunner@3e92efc3]" name="feature" duration-ms="18319" started-at="2021-04-14T13:05:30 EET" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-04-14T13:05:49 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sign in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="screenshot_on_failuar(org.testng.ITestResult)[pri:0, instance:runner.Testrunner@3e92efc3]" name="screenshot_on_failuar" is-config="true" duration-ms="1" started-at="2021-04-14T13:05:49 EET" finished-at="2021-04-14T13:05:49 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Testrunner@3e92efc3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot_on_failuar -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Testrunner@3e92efc3]" name="tearDownClass" is-config="true" duration-ms="3095" started-at="2021-04-14T13:05:50 EET" finished-at="2021-04-14T13:05:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:runner.Testrunner@3e92efc3]" name="closedriver" is-config="true" duration-ms="15340" started-at="2021-04-14T13:05:57 EET" finished-at="2021-04-14T13:06:12 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- runner.Testrunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

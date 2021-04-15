@@ -1,0 +1,1 @@
+{"uuid":"72a19541-9710-40ee-b744-3ce0f69dbb2a","name":"Default suite","children":["9bfc6629-a4c5-4517-b4d7-2f5001088f0b"],"befores":[],"afters":[{"name":"closedriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1617713526352,"stop":1617713529948}],"links":[],"start":1617713150313,"stop":1617713530109}
